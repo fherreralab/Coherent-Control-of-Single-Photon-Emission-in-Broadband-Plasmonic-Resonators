@@ -31,3 +31,9 @@ Fig2d.py redraws panel (d) from those three files.
 Population at the first burst, P_1 = P_e(T_rec), against the number of comb teeth N. The teeth always span Γ_K = 63 meV, so the spacing is Δω = Γ_K/(N − 1) and the first burst arrives at T_rec = 2πħ/Δω. The optima are N = 23, 44 and 217 for σ = 1, 0.5 and 0.1 meV.
 
 Fig3.txt has five columns: N, then P_1 for σ = 0.1, 0.5 and 1 meV, and finally the coherent-sum bound max_t P_env(t), which grows as N².
+
+## Fig4 — Lorentzian fits
+
+Fig4a.txt is the exact spectral density from Mie theory, with columns omega (eV) and K(omega) (Hz).
+
+Only this curve is archived, since everything else in the figure follows from it and from the manuscript. The six-Lorentzian fit in panel (a) is Eq. (A1) with the parameters of Table I, and the drive overlap √K(ω)D*(ω) in panel (b) is built from the same kernel together with the Gaussian comb, with its Lorentzian fit given by Table II. Note that Table I lists A_j in meV² while K(ω) here is in Hz: 1 meV corresponds to 2.41799 × 10¹¹ Hz.
