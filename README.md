@@ -6,7 +6,7 @@ Preprint: https://arxiv.org/abs/XXXX.XXXXX
 
 All files are plain text, whitespace-separated, with a header row naming each column. One file is gzipped, and numpy.loadtxt opens it directly without unpacking.
 
-Throughout, the emitter is a quantum dot of dipole moment 24 D placed 2 nm from a 20 nm-radius silver nanosphere, with transition frequency ω_e = 2.97 eV at the maximum of the spectral density K(ω). The kernel bandwidth is Γ_K = 63 meV, and all traces use the same per-tooth amplitude |D_0| = 10⁻⁵ a.u.
+Unless stated otherwise, the emitter is a quantum dot of dipole moment 24 D placed 2 nm from a 20 nm-radius silver nanosphere, with transition frequency ω_e = 2.97 eV at the maximum of the spectral density K(ω). The kernel bandwidth is Γ_K = 63 meV, and all traces use the same per-tooth amplitude |D_0| = 10⁻⁵ a.u.
 
 ## Fig1 — controlling emission temporal profiles
 
@@ -36,4 +36,10 @@ Fig3.txt has five columns: N, then P_1 for σ = 0.1, 0.5 and 1 meV, and finally 
 
 Fig4a.txt is the exact spectral density from Mie theory, with columns omega (eV) and K(omega) (Hz).
 
-Only this curve is archived, since everything else in the figure follows from it and from the manuscript. The six-Lorentzian fit in panel (a) is Eq. (A1) with the parameters of Table I, and the drive overlap √K(ω)D*(ω) in panel (b) is built from the same kernel together with the Gaussian comb, with its Lorentzian fit given by Table II. Note that Table I lists A_j in meV² while K(ω) here is in Hz: 1 meV corresponds to 2.41799 × 10¹¹ Hz.
+Only this curve is archived, since everything else in the figure follows from it and from the manuscript. The six-Lorentzian fit in panel (a) is Eq. (A1) with the parameters of Table I, and the drive overlap √K(ω)D*(ω) in panel (b) is built from the same kernel together with the Gaussian comb, with its one-Lorentzian-per-tooth fit given by Table II. Note that Table I lists A_j in meV² while K(ω) here is in Hz: 1 meV corresponds to 2.41799 × 10¹¹ Hz.
+
+## Fig5 — weak-coupling limit
+
+The same emitter and the same comb as in Fig2 (N = 23, σ = 1 meV, spanning 63 meV, T_rec = 1.444 ps), but with the emitter moved to h = 10 nm, where the strong-coupling criterion no longer holds. The recurrences survive the move; the comb enhancement does not.
+
+Fig5.txt has three columns: t_ps, then P_e for the 23-tooth comb and for a single tooth at the same per-tooth amplitude.
