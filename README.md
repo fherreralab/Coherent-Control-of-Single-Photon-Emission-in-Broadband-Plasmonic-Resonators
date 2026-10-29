@@ -1,5 +1,7 @@
 # Data for Coherent Control of Single-Photon Emission in Broadband Plasmonic Resonators
 
+![Schematic of the driven emitter–nanocavity system](Fig1v8.png)
+
 Data used in "Coherent Control of Single-Photon Emission in Broadband Plasmonic Resonators", by Athul S. Rema, Adrián E. Rubio López, and Felipe Herrera.
 
 Preprint: https://arxiv.org/abs/XXXX.XXXXX
