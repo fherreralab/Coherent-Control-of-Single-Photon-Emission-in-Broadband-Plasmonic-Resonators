@@ -42,6 +42,8 @@ Only this curve is archived, since everything else in the figure follows from it
 
 ## Fig5 — weak-coupling limit
 
-The same emitter and the same comb as in Fig2 (N = 23, σ = 1 meV, spanning 63 meV, T_rec = 1.444 ps), but with the emitter moved to h = 10 nm, where the strong-coupling criterion no longer holds. The recurrences survive the move; the comb enhancement does not.
+The same emitter and the same comb as in Fig2 ($N = 23$, $\sigma = 1$ meV, spanning 63 meV, $T_{\mathrm{rec}} = 1.444$ ps), but with the emitter moved to $h = 10$ nm, where the strong-coupling criterion no longer holds. The recurrences survive the move; the comb enhancement does not.
 
-Fig5.txt has three columns: t_ps, then P_e for the 23-tooth comb and for a single tooth at the same per-tooth amplitude.
+`Fig5a.txt` has three columns: `t_ps`, then $P_e$ for the 23-tooth comb (`Pe_N23`) and for a single tooth (`Pe_N1`) at the same per-tooth amplitude.
+
+`Fig5b_P_emit.txt.gz` holds the 2D map of the emitter-induced change $P_1 - P_1^{\mathrm{bg}}$ (in fs), with rows indexed by frequency and columns by time. The two axes are in `Fig5b_omega.txt` (eV) and `Fig5b_time.txt` (ps). `Fig5b.py` redraws panel (b) from those three files.
