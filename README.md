@@ -4,7 +4,7 @@
 
 Data used in "Coherent Control of Single-Photon Emission in Broadband Plasmonic Resonators", by Athul S. Rema, Adrián E. Rubio López, and Felipe Herrera.
 
-Preprint: https://arxiv.org/
+Preprint: https://arxiv.org/abs/2611.28493
 
 All files are plain text, whitespace-separated, with a header row naming each column. One file is gzipped, and numpy.loadtxt opens it directly without unpacking.
 
